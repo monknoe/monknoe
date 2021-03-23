@@ -1,0 +1,70 @@
+.flex{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:white;
+}
+.title{
+    position: relative;left: 190px; top: 0px;
+    display:block;
+    background-color:white;
+}
+p.content{
+    position: relative;left: 190px; top: 0px;
+    display:block;
+    background-color:white;
+}
+p.lyrics{
+    position: relative;left: 710px; top: -790px;
+    display:block;
+    background-color:white;
+}
+.beyondL{
+    position: relative;left: 190px; top: -830px;
+    display:block;
+    background-color:white;
+}
+p.beyondL{
+    position: relative;left: 320px; top: -400px;
+    display:block;
+    background-color:white; 
+}
+@media (max-width:1200px){
+    .flex{
+        left: 60px; top: 0px;
+    }
+    .title{
+        left: 60px; top: 0px;
+    }
+    .beyondL{
+        left: 60px; top: 0px;
+    }
+    p.content{
+        left: 60px; top: 0px;
+    }
+    p.lyrics{
+        left: 60px; top: 0px;
+    }
+    p.beyondL{
+        left: 0px; top: 0px;
+    }
+@media (max-width:500px){
+    .flex{
+        left: 20px; top: 0px;
+    }
+    .title{
+        left: 20px; top: 0px;
+    }
+    .beyondL{
+        left: 20px; top: 0px;
+    }
+    p.content{
+        left: 20px; top: 0px;
+    }
+    p.lyrics{
+        left: 20px; top: 0px;
+    }
+    p.beyondL{
+        left: 0px; top: 0px;
+    }
+}
